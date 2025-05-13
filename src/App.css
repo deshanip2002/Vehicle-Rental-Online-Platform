@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: white;
+    --main-color: #08003D;
+}
+
+section {
+    width: 100%;
+    min-height: calc(100vh - 400px);
+    padding: 60px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.btn-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 1200px;
+    margin: auto;
+}
+
+@media(max-width:1240px) {
+    .box {
+        width: calc(100% - 40px);
+    }
+}
